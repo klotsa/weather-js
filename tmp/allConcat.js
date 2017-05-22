@@ -21,7 +21,8 @@ $(document).ready(function() {
     $('#location').val("");
     $('.showWeather').text("The city you have chosen is " + city + ".");
     $.get('http://api.openweathermap.org/data/2.5/weather?q=' + city + '&appid=' + apiKey, function(response) {
-      console.log(response['coord']);
+      console.log(response['main']['temp']);
+      $('#text').text(response.main.temp);
     });
   });
 });
