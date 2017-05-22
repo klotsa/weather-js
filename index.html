@@ -2,7 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <script src='js/jquery-3.2.1.js'></script>
+    <link rel="stylesheet" href="build/css/vendor.css">
+    <script src="build/js/vendor.min.js"></script>
     <script src='build/js/app.js'></script>
     <title>Journal</title>
   </head>
@@ -13,7 +14,7 @@
       <input id='title' type="text" name="title" value="">
       <label for="body">Entry</label>
       <input id='body' type="text" name="body" value="">
-      <button type="submit" name="button">Submit</button>
+      <button type="submit" class='btn btn-success' name="button">Submit</button>
     </form>
     <p id='wordCount'></p>
     <p id='consonantCount'></p>
