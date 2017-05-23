@@ -19,8 +19,8 @@ var lib = require('bower-files')({
     }
   }
 });
-
-
+var moment = require('moment');
+moment().format();
 
 gulp.task('bowerJS', function () {
   return gulp.src(lib.ext('js').files)

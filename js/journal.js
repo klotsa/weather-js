@@ -35,5 +35,4 @@ Entry.prototype.getTeaser = function(){
   return result.join(' ');
 };
 
-
 exports.entryModule = Entry;

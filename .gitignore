@@ -1,3 +1,4 @@
 node_modules/
 bower-components/
 .DS_Store
+.env
